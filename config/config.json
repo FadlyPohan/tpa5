@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "fadly1213",
+    "password": "0024522813",
+    "database": "fadly_todo2",
+    "host": "db4free.net",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "fadly1213",
+    "password": "0024522813",
+    "database": "fadly_todo2",
+    "host": "db4free.net",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "fadly1213",
+    "password": "0024522813",
+    "database": "fadly_todo2",
+    "host": "db4free.net",
+    "dialect": "mysql"
+  }
+}
