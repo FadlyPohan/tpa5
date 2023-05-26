@@ -12,13 +12,12 @@ const createCustomer = async (req, res) => {
         message: 'Masukkan data Customer',
       });
     }
-
     const newCustomer = {
       id,
       nama,
       email,
     };
-
+    //
     await Customer.create(newCustomer);
     return res.status(201).json({
       message: ' Create Customer success ',
